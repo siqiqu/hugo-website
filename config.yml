@@ -85,7 +85,7 @@ params:
       #  - name: CV
        #   url: cv.pdf
         - name: Email
-          url: qu.siqi@uni-mannheim.de
+          url: mailto:qu.siqi@uni-mannheim.de
        # - name: Zoom
        #   url: https://www.zoom.us/my/igelfeld
        # - name: Location
