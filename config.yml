@@ -34,7 +34,7 @@ params:
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
-    hideFooter: false
+    hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
     ShowReadingTime: false
@@ -57,8 +57,8 @@ params:
           title: Siqi Qu
           subtitle: |
             <p>
-            Hello! I am a doctoral candidate in Mathematics. I am currently pursuing a double degree at the University of Mannheim and the University of Groningen, 
-            supervised by Prof.dr. Mathias Staudigl and Prof.dr. Juan Peypouquet.
+            Hello!I am a doctoral candidate in Mathematics pursuing a double degree at the University of Mannheim and the University of Groningen.
+            I am supervised by Prof. Dr. Mathias Staudigl and Prof. Dr. Juan Peypouquet.
             </p><br>
             <p>
             My research is focus on the convex optimization.
