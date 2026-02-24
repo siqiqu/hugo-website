@@ -63,7 +63,7 @@ params:
             <p>
 My work develops dynamical systems incorporating penalization and Tikhonov regularization to ensure strong convergence toward least-norm solutions,
 highlighting multiscale features and connections between regularization, penalty methods, and splitting techniques. Applications include constrained optimization and min–max problems in optimization and optimal control.
-            <p>
+            </p>
           imageUrl: "siqiweb.jpeg"
           imageWidth: 160
           imageHeight: 160
