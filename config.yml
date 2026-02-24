@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/hugo-website/" 
-title: Moritz-Maria von Igelfeld
+baseURL: "https://siqiqu.github.io/" 
+title: Siqi Qu
 theme: PaperMod
 
 enableInlineShortcodes: true
@@ -29,8 +29,8 @@ menu:
           weight: 6
 
 params:
-    description: "This website hosts Moritz-Maria von Igelfeld's research papers, books, course materials, data, curriculum vitae, and contact information."
-    author: Moritz-Maria von Igelfeld
+    description: "Siqi Qu - Ph.D. student in Mathematics at the University of Mannheim & University of Groningen."
+    author: Siqi Qu
     # googleAnalyticsID: "G-XXXXX"
     DateFormat: "January 2006"
     defaultTheme: light
@@ -55,7 +55,15 @@ params:
     profileMode:
           enabled: true
           title: Siqi Qu
-          subtitle: "I am a doctoral candidate in mathematics. I am currently pursuing a double degree at the University of Mannheim and the University of Groningen."
+          subtitle: |
+            <p>
+            I am a doctoral candidate in mathematics. I am currently pursuing a double degree at the University of Mannheim and the University of Groningen.
+            </p><br>
+            <p>
+            My research bridges data-driven learning and scientific reasoning through computational Bayes,
+            with a focus on scientific machine learning, approximate Bayesian inference,
+            and Bayesian optimization for complex scientific systems.
+            </p>
           imageUrl: "Siqi.jpeg"
           imageWidth: 160
           imageHeight: 160
