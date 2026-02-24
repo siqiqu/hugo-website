@@ -82,8 +82,8 @@ params:
           #   url: https://en.wikipedia.org/wiki/Moritz-Maria_von_Igelfeld_(character)
 
     socialIcons:
-        - name: CV
-          url: cv.pdf
+      #  - name: CV
+       #   url: cv.pdf
         - name: Email
           url: qu.siqi@uni-mannheim.de
        # - name: Zoom
@@ -92,12 +92,14 @@ params:
         #  url: location/
       #  - name: Office Hours
       #   url: officehours/
-        - name: Google Scholar
-          url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
+     #   - name: Google Scholar
+      #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
       #  - name: GitHub
        #   url: https://github.com/pmichaillat
         - name: ORCID
           url: https://orcid.org/0000-0002-0313-4851
+         - name: LinkedIn
+          url: https://de.linkedin.com/in/siqi-qu-581b12371
      #   - name: Substack
       #    url: https://pmichaillat.substack.com
       #  - name: YouTube
