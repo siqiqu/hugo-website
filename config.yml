@@ -55,8 +55,8 @@ params:
     profileMode:
           enabled: true
           title: Siqi Qu
-          subtitle: "I am a Professor in the Institute of Romance Philology at the University of Regensburg, Germany. My research focuses on Portuguese irregular verbs. I was a doctoral student of Professor Dr Dieter Vogelsang in Munich, and later a second assistant of Professor Walter Schoeffler-Henschell at the University of Wiesbaden."
-          imageUrl: "picture.jpeg"
+          subtitle: "I am a doctoral candidate in mathematics. I am currently pursuing a double degree at the University of Mannheim and the University of Groningen."
+          imageUrl: "Siqi.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
