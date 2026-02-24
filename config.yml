@@ -57,14 +57,12 @@ params:
           title: Siqi Qu
           subtitle: |
             <p>
-            I am a doctoral candidate in mathematics. I am currently pursuing a double degree at the University of Mannheim and the University of Groningen.
+            I am a doctoral candidate in Mathematics. I am currently pursuing a double degree at the University of Mannheim and the University of Groningen.
             </p><br>
             <p>
-            My research bridges data-driven learning and scientific reasoning through computational Bayes,
-            with a focus on scientific machine learning, approximate Bayesian inference,
-            and Bayesian optimization for complex scientific systems.
+            My research is focus on the convex optimization.
             </p>
-          imageUrl: "Siqi.jpeg"
+          imageUrl: "siqiweb.jpeg"
           imageWidth: 160
           imageHeight: 160
           buttons:
