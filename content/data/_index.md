@@ -1,6 +1,5 @@
 ---
-title: "TEST PAGE"
-layout: timeline
-type: page
-draft: false
+title: "Data"
+layout: list
+type: data
 ---
