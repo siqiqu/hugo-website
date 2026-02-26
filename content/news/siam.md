@@ -1,5 +1,5 @@
 ---
 title: "siam"
-date: 1-6-2026
+date: 2026-6-1
 draft: false
 ---
