@@ -1,35 +1,5 @@
 {{ define "main" }}
 
-<h1>{{ .Title }}</h1>
-
-<div class="timeline">
-
-{{ $pages := where .Pages "Type" "data" }}
-{{ $pages := sort $pages "Date" "desc" }}
-
-{{ range $pages }}
-
-<div class="timeline-item">
-  <div class="timeline-date">
-    {{ .Date.Format "2006" }}
-  </div>
-
-  <div class="timeline-content">
-    <h3>{{ .Title }}</h3>
-
-    {{ with .Params.topic }}
-      <p><strong>Topic:</strong> {{ . }}</p>
-    {{ end }}
-
-    {{ with .Params.speaker }}
-      <p><strong>Speaker:</strong> {{ . }}</p>
-    {{ end }}
-
-  </div>
-</div>
-
-{{ end }}
-
-</div>
+<h1>LIST TEMPLATE WORKING</h1>
 
 {{ end }}
