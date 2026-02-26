@@ -1,135 +1,116 @@
-baseURL: "https://siqiqu.github.io/" 
+baseURL: "https://siqiqu.github.io/"
 title: Siqi Qu
 theme: PaperMod
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
+
 pagination:
   pagerSize: 20
 
 taxonomies:
-    tag: tags
+  tag: tags
 
 menu:
-    main:
-       # - name: Books
-        #  url: books/
-       #   weight: 5 
-        - name: Publications
-          url: papers/
-          weight: 1
-        - name: Conferences&Talks
-          url: data/
-          weight: 2 
-        - name: Courses
-          url: courses/
-          weight: 3
+  main:
+    - name: Publications
+      url: papers/
+      weight: 1
+    - name: Conferences&Talks
+      url: data/
+      weight: 2
+    - name: Courses
+      url: courses/
+      weight: 3
 
 params:
-    description: "Siqi Qu - Ph.D. student in Mathematics at the University of Mannheim & University of Groningen."
-    author: Siqi Qu
-    # googleAnalyticsID: "G-XXXXX"
-    DateFormat: "January 2006"
-    defaultTheme: light
-    hideFooter: true
-    disableThemeToggle: true
-    ShowShareButtons: false
-    ShowReadingTime: false
-    disableSpecial1stPost: true
-    disableAnchoredHeadings: true
-    ShowPostNavLinks: false
-    ShowBreadCrumbs: false
-    ShowCodeCopyButtons: true
-    ShowAllPagesInArchive: false
-    MainSections: ["courses","papers","news"]
-    #  MainSections: ["books","courses","papers","data"]
-    ShowToc: false
-    disableScrollToTop: true
-    TocOpen: true
-    ShowWordCount: false
-    UseHugoToc: true
-    comments: false
-    math: true
-    profileMode:
-          enabled: true
-          title: Siqi Qu
-          subtitle: |
-            <p>
-            Hello! I am a 4th year Ph.D. student in Mathematics pursuing a double degree at the University of Mannheim and the University of Groningen.
-            </p><br>
-            <p>
-            My research lies at the intersection of optimization, variational analysis, and dynamical systems. I study constrained variational inequalities and monotone inclusion problems in Hilbert spaces.
-            </p><br>
-            <p>
-            A central theme of my work is the design and analysis of dynamical systems incorporating penalization and Tikhonov regularization to ensure strong convergence toward least-norm solutions,
-            highlighting multiscale features and connections between regularization, penalty methods, and splitting techniques. Applications include constrained optimization and min–max problems in optimization and optimal control.
-            </p>
-          imageUrl: "siqiweb.jpeg"
-          imageWidth: 160
-          imageHeight: 160
-          buttons:
-            - name: Publications
-              url: papers/
-            - name: Conferences&Talks
-              url: data/
-           # - name: Books
-          #    url: books/
-            - name: Courses
-              url: courses/
-          #  - name: Tags
-          #    url: tags/
-           # - name: Archive
-          #    url: archive/
 
+  description: "Siqi Qu - Ph.D. student in Mathematics at the University of Mannheim & University of Groningen."
+  author: Siqi Qu
 
-    socialIcons:
-      #  - name: CV
-       #   url: cv.pdf
-        - name: Email
-          url: mailto:qu.siqi@uni-mannheim.de
-       # - name: Zoom
-       #   url: https://www.zoom.us/my/igelfeld
-       # - name: Location
-        #  url: location/
-      #  - name: Office Hours
-      #   url: officehours/
-     #   - name: Google Scholar
-      #   url: https://scholar.google.com/citations?user=cL23w-4AAAAJ
-      #  - name: GitHub
-       #   url: https://github.com/pmichaillat
-        - name: ORCID
-          url: https://orcid.org/0000-0002-0313-4851
-        - name: LinkedIn
-          url: https://www.linkedin.com/in/siqi-qu-581b12371/
-     #   - name: Substack
-      #    url: https://pmichaillat.substack.com
-      #  - name: YouTube
-       #   url: https://www.youtube.com/@pmichaillat
-      #  - name: Twitter
-     #     url: https://x.com/pmichaillat
-     #   - name: Bluesky
-     #     url: https://bsky.app/profile/pmichaillat.bsky.social
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: true
+  disableThemeToggle: true
 
-assets:
-  disableScrollBarStyle: true
-  customCSS:
-    - css/custom.css
-    cover:
-        hiddenInList: false
-        hiddenInSingle: true
-    label:
-      text: "Siqi Qu"
-     # icon: favicon.ico
-      iconHeight: 18
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+
+  MainSections:
+    - courses
+    - papers
+    - news
+
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+
+  # ✅ 主题相关配置（必须在 params 里面）
+  assets:
+    disableScrollBarStyle: true
+    customCSS:
+      - css/custom.css
+
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+
+  label:
+    text: "Siqi Qu"
+    iconHeight: 18
+
+  profileMode:
+    enabled: true
+    title: Siqi Qu
+    subtitle: |
+      <p>
+      Hello! I am a 4th year Ph.D. student in Mathematics pursuing a double degree at the University of Mannheim and the University of Groningen.
+      </p><br>
+      <p>
+      My research lies at the intersection of optimization, variational analysis, and dynamical systems. I study constrained variational inequalities and monotone inclusion problems in Hilbert spaces.
+      </p><br>
+      <p>
+      A central theme of my work is the design and analysis of dynamical systems incorporating penalization and Tikhonov regularization to ensure strong convergence toward least-norm solutions.
+      </p>
+    imageUrl: "siqiweb.jpeg"
+    imageWidth: 160
+    imageHeight: 160
+    buttons:
+      - name: Publications
+        url: papers/
+      - name: Conferences&Talks
+        url: data/
+      - name: Courses
+        url: courses/
+
+  socialIcons:
+    - name: Email
+      url: mailto:qu.siqi@uni-mannheim.de
+    - name: ORCID
+      url: https://orcid.org/0000-0002-0313-4851
+    - name: LinkedIn
+      url: https://www.linkedin.com/in/siqi-qu-581b12371/
 
 markup:
-    goldmark:
-        renderer:
-            unsafe: true
-    highlight:
-        guessSyntax: true
-        style: autumn 
-    tableOfContents:
-        endLevel: 2
-        ordered: false
-        startLevel: 2
+  goldmark:
+    renderer:
+      unsafe: true
+
+  highlight:
+    guessSyntax: true
+    style: autumn
+
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2
