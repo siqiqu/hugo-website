@@ -2,7 +2,7 @@
 title: "Tikhonov Regularized Exterior Penalty Dynamics for Constrained Variational Inequalities" 
 date: 2022-01-01
 tags: ["Constrained Variational Inequalities","Dynamical Systems","Penalty Dynamics","Tikhonov regularization"]
-author: ["Juan Peypouquet, Siqi Qu, Mathias Staudigl"]
+author: ["Mathias Staudigl, Siqi Qu"]
 description:
 summary:
 cover:
