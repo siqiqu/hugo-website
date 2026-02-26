@@ -49,6 +49,17 @@
                     </svg>
                     {{- end }}
                 </span>
+
+    <div class="profile-news">
+      <h2>News</h2>
+      {{ $news := where site.RegularPages "Section" "news" | sort "Date" "desc" | first 3 }}
+      <ul>
+        {{ range $news }}
+          <li>{{ .Date.Format "2006-01-02" }} — <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+</div>
             </a>
             {{- end }}
         </div>
@@ -57,27 +68,6 @@
     {{- end}}
 </div>
 
-<section style="margin-top:60px;">
-  <h2>News</h2>
-
-  {{ $news := where site.RegularPages "Section" "news" }}
-  {{ $news = sort $news "Date" "desc" }}
-  {{ $news = first 3 $news }}
-
-  {{ if $news }}
-    <ul>
-    {{ range $news }}
-      <li>
-        {{ .Date.Format "2006-01-02" }} —
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-    {{ end }}
-    </ul>
-  {{ else }}
-    <p>No news yet.</p>
-  {{ end }}
-
-</section>
 
 <h2>Debug</h2>
 {{ range .Site.RegularPages }}
