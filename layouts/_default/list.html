@@ -75,9 +75,28 @@
   {{- end }}
   */ -}}
   {{- if not (.Param "hideMeta") }}
+    {{- /* 
   <footer class="entry-footer">
     {{- partial "post_meta.html" . -}}
   </footer>
+    */ -}}
+<footer class="entry-footer">
+
+  <!-- 作者：一行显示 -->
+  {{ with .Params.author }}
+  <div class="post-authors">
+    {{ delimit . ", " }}
+  </div>
+  {{ end }}
+
+  <!-- 年份：单独一行 -->
+  {{ with .Date }}
+  <div class="post-year">
+    {{ .Format "2006" }}
+  </div>
+  {{ end }}
+</footer>
+  
   {{- end }}
   <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
 </article>
