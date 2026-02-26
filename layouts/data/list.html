@@ -4,7 +4,7 @@
 
 <div class="timeline">
 
-{{ $pages := where .Site.RegularPages "Section" "data" }}
+{{ $pages := where .Pages "Type" "data" }}
 {{ $pages := sort $pages "Date" "desc" }}
 
 {{ range $pages }}
