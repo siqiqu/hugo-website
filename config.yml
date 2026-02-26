@@ -110,9 +110,9 @@ params:
      #   - name: Bluesky
      #     url: https://bsky.app/profile/pmichaillat.bsky.social
 
-    assets:
-        disableScrollBarStyle: true
-        customCSS:
+assets:
+  disableScrollBarStyle: true
+  customCSS:
     - css/custom.css
     cover:
         hiddenInList: false
