@@ -7,7 +7,7 @@ cover:
 
     relative: true
 editPost:
-    URL: "(https://ieeexplore.ieee.org/document/10530399)"
+    URL: "https://ieeexplore.ieee.org/document/10530399"
     Text: "IEEE Control Systems Letters"
 
 ---
