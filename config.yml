@@ -77,7 +77,7 @@ params:
       Hello! I am a 4th year Ph.D. student in Mathematics pursuing a double degree at the University of Mannheim and the University of Groningen.
       </p><br>
       <p>
-      My research lies at the intersection of optimization, variational analysis, and dynamical systems. I study constrained variational inequalities and monotone inclusion problems in Hilbert spaces.
+      My research lies at the intersection of <strong>optimization, variational analysis, and dynamical systems</strong>. I study <strong>constrained variational inequalities</strong> and <strong>monotone inclusion problems</strong> in Hilbert spaces.
       </p><br>
       <p>
       A central theme of my work is the design and analysis of dynamical systems incorporating penalization and Tikhonov regularization to ensure strong convergence toward least-norm solutions.
