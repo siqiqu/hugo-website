@@ -1,7 +1,7 @@
 ---
 title: "On the number of concentrating solutions of a fractional Schrödinger–Poisson system with doubly critical growth" 
 date: 2022-03-01
-tags: ["On the number of concentrating solutions of a fractional Schrödinger–Poisson system with doubly critical growth"]
+tags: ["Nonlocal operator, Schrödinger–Poisson system, Ground state solution, Critical Sobolev exponent"]
 author: ["Siqi Qu, Xiaoming He"]
 description:
 summary:
