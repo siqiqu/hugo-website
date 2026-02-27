@@ -1,6 +1,5 @@
 ---
-title: "Workshop Berlin"
-date: 2024-05-01
-topic: "XXX"
-speaker: "XXX"
+title: "Women in Optimization"
+date: 2024-03-01
+location: "Erlangen, Germany"
 ---

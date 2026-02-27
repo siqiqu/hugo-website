@@ -1,6 +1,5 @@
 ---
-title: "Workshop Mannheim"
-date: 2025-05-01
-topic: "XXX"
-speaker: "XXX"
+title: "63rd IEEE Conference on Decision and Control (CDC)"
+date: 2024-12-01
+location: ''Milan, Italy''
 ---
