@@ -1,6 +1,6 @@
 ---
-title: "Tikhonov Regularized Exterior Penalty Dynamics for Constrained Variational Inequalities" 
-date: 2024-01-01
+title: "On the number of concentrating solutions of a fractional Schrödinger–Poisson system with doubly critical growth" 
+date: 2022-03-01
 tags: ["On the number of concentrating solutions of a fractional Schrödinger–Poisson system with doubly critical growth"]
 author: ["Siqi Qu, Xiaoming He"]
 description:
